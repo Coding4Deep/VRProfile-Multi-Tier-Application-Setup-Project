@@ -24,5 +24,5 @@ The application is structured into five key services, each running on separate V
 1. Database Tier: MySQL (MariaDB) → Stores user and application data. <br>
 2. Cache Tier: Memcached → Caches database queries for better performance. <br>
 3. Message Queue Tier: RabbitMQ → Handles asynchronous messaging. <br>
-4. Application Tier: Tomcat → Runs the Java-based backend application. 
+4. Application Tier: Tomcat → Runs the Java-based backend application. <br>
 5. Web Tier: Nginx → Acts as a reverse proxy and serves web requests. 
