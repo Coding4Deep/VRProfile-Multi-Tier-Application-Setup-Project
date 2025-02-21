@@ -6,23 +6,23 @@ performance.
 
 <h1>Scenario & Use Case </h1>
 ● The VRProfile application is a web-based system that requires multiple services to 
-function properly. 
+function properly. <br>
 ● Each service is deployed on a separate virtual machine (VM) to mirror real-world 
-deployments. 
-● This multi-tier architecture ensures modularity, scalability, and fault isolation. 
+deployments. <br>
+● This multi-tier architecture ensures modularity, scalability, and fault isolation. <br>
 
 
 <h1>Why Are We Setting Up This Project? </h1>
-● To create a local development & testing environment before deploying to production. 
-● To learn and practice infrastructure automation using Vagrant. 
+● To create a local development & testing environment before deploying to production. <br>
+● To learn and practice infrastructure automation using Vagrant. <br>
 ● To test and optimize application performance by setting up a distributed service 
-architecture. 
-● To simulate a production environment for DevOps CI/CD pipeline testing.
+architecture. <br>
+● To simulate a production environment for DevOps CI/CD pipeline testing.<br>
 
 <h1>Multi-Tier Architecture Breakdown </h1>
-The application is structured into five key services, each running on separate VMs: 
-1. Database Tier: MySQL (MariaDB) → Stores user and application data. 
-2. Cache Tier: Memcached → Caches database queries for better performance. 
-3. Message Queue Tier: RabbitMQ → Handles asynchronous messaging. 
+The application is structured into five key services, each running on separate VMs: <br><br>
+1. Database Tier: MySQL (MariaDB) → Stores user and application data. <br>
+2. Cache Tier: Memcached → Caches database queries for better performance. <br>
+3. Message Queue Tier: RabbitMQ → Handles asynchronous messaging. <br>
 4. Application Tier: Tomcat → Runs the Java-based backend application. 
 5. Web Tier: Nginx → Acts as a reverse proxy and serves web requests. 
